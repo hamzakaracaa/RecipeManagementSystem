@@ -1,0 +1,9 @@
+This project is an online Recipe Management System (RMS) developed in Java, designed to facilitate the creation, modification, search, and rating of recipes. It provides a comprehensive platform for users to manage their culinary creations with ease and flexibility. The core functionalities include creating recipes by specifying a name, list of ingredients, cooking instructions, serving size, and optionally adding up to three tags and categories for better organization and searchability.
+
+The RMS allows users to search for recipes based on keywords, tags, or categories, making it easy to find specific recipes or explore new ones within certain criteria. Once a recipe is found, users can view detailed information including ingredients, instructions, tags, categories, serving size, and average rating. The system also enables users to rate recipes on a scale of 1-5 stars, with ratings being averaged to provide an overall score.
+
+Modification of recipes is another key feature, where users can update ingredients, change cooking instructions, or add new tags and categories. An important aspect of the modification functionality is the ability to undo the last modification, ensuring that users can revert changes if needed.
+
+The project adheres to modular design principles, making the codebase more maintainable and extensible. It leverages the Command pattern to encapsulate recipe modifications, allowing easy implementation of the undo feature. Additionally, the project includes Maven for build automation, ensuring smooth compilation and packaging into an executable JAR file.
+
+Overall, the Recipe Management System offers a robust and user-friendly platform for managing recipes, enhancing the culinary experience for users by providing easy-to-use features and maintaining high flexibility and control over their recipe collections.
